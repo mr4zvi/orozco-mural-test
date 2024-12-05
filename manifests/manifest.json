@@ -1,0 +1,230 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://263e7131-e843-40a6-aa87-b4892f861d3f",
+	"@type": "sc:Manifest",
+	"label": "The Epic of American Civilization (1932)",
+	"metadata": [
+		{
+			"label": "Location", "value": "Baker-Berry Library, Dartmouth College"
+		}
+	],
+	"description": [
+		{
+			"@value": "José Clemente Orozco ",
+			"@language": "en"
+		}
+	],
+	"license": "Public Domain",
+	"attribution": "Hood Museum of Art, Dartmouth College",
+	"sequences": [
+		{
+			"@id": "http://db13d9e8-5607-492b-9185-429e6d6cc30c",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://a37242be-0001-48fb-9902-a69f28b113f8",
+					"@type": "sc:Canvas",
+					"label": "Panel 1",
+					"height": 4674,
+					"width": 3960,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3979cfa2-ec66-4798-87d7-fc02169f2145",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/image/iiif/2/panel-1_202412%2fpanel-1.tif/full/full/0/gray.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/image/iiif/2/panel-1_202412%2fpanel-1.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 18509040,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4674,
+								"width": 3960
+							},
+							"on": "http://a37242be-0001-48fb-9902-a69f28b113f8"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://66186953-66e8-49c4-b924-9e0831262e87",
+					"@type": "sc:Canvas",
+					"label": "Panel 2",
+					"height": 986,
+					"width": 4601,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ff50df77-3297-4c1c-ab3b-4a9346d92e3c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/image/iiif/2/panel-2_202412%2fpanel-2.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/image/iiif/2/panel-2_202412%2fpanel-2.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 4536586,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 986,
+								"width": 4601
+							},
+							"on": "http://66186953-66e8-49c4-b924-9e0831262e87"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://9bba75b0-954e-4e99-afff-58c9b4de5d4b",
+					"@type": "sc:Canvas",
+					"label": "Panel 3",
+					"height": 3458,
+					"width": 3475,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7e450e8d-1e45-44df-9759-213e74a688ae",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/image/iiif/2/rs-17811-p-932-12-001%2fRS17811_P-932-12_001.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/image/iiif/2/rs-17811-p-932-12-001%2fRS17811_P-932-12_001.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 12016550,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3458,
+								"width": 3475
+							},
+							"on": "http://9bba75b0-954e-4e99-afff-58c9b4de5d4b"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
